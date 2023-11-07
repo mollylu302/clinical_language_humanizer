@@ -2,7 +2,7 @@ import OpenAI from 'openai';
 
 function humanize(textarea) {
 
-    const apiKey = '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'; // Replace with your actual API key
+    const apiKey = ''; // Replace with your actual API key
 
     const openai = new OpenAI({
         apiKey: apiKey, // defaults to process.env["OPENAI_API_KEY"]
